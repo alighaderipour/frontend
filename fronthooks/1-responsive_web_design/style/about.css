@@ -2,11 +2,12 @@
     font-size: larger;
     color: tomato;
 }
-
+/* first p after id="product" */
 #product > p{
     color: red;
 }
 
+/* all p same level as id="test" */
 #test + p{
     color: rgb(4, 0, 255);
 }
