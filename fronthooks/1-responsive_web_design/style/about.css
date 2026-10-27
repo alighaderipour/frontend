@@ -2,3 +2,15 @@
     font-size: larger;
     color: tomato;
 }
+
+#product > p{
+    color: red;
+}
+
+#test + p{
+    color: rgb(4, 0, 255);
+}
+
+#allgreen ~ p{
+    color: green;
+}
