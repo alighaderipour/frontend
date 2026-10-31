@@ -15,3 +15,29 @@
 #allgreen ~ p{
     color: green;
 }
+
+
+/* all a element with target attribute */
+a[target]{
+    color:yellow
+}
+
+
+a [target="_blank"]{
+    color:red'
+}
+
+/* all a elements which has google in the href attr */
+a[href*="google"]{
+    color:pink
+}
+
+/* all a elements which their href attr starts with https */
+a[href^="https:"]{
+    color:brown
+}
+
+/* ending with .ir  */
+a[href$=".ir"]{
+    color:pink
+}
